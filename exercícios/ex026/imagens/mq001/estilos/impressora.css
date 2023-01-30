@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* Estilo para impressoras */
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+menu {
+    display: none;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+article {
+    width: 100%;
+}
+
+article::after {
+    content: 'Esse site foi desenvolvido em www.sociogigante.com'
+}
+
