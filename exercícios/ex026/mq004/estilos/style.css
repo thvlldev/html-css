@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* Versão Mobile First */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background: black url(../imagens/back-phone.jpg) no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+
+    
+    
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.699);
+    width: 430px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.938);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.534);
+}
+
+img#pc{display: none;}
+img#print{display: none;}
+img#tablet{display: none;}
+img#tv{display: none;}
