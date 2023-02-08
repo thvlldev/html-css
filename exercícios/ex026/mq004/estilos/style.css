@@ -16,9 +16,9 @@ html {
 
 body {
     background: black url(../imagens/back-phone.jpg) no-repeat;
-    text-align: center;
     background-size: cover;
     background-position: center center;
+    
 
     
     
@@ -33,6 +33,11 @@ main {
     padding: 10px;
 }
 
+img {
+    display: block;
+    margin: auto;
+}
+
 h1 {
     text-align: center;
     font-size: 2em;
@@ -44,3 +49,5 @@ img#pc{display: none;}
 img#print{display: none;}
 img#tablet{display: none;}
 img#tv{display: none;}
+
+

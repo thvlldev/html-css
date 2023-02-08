@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */ 
+
+@media print  {
+    
+  main {
+    border-style: solid;
+  }
+
+  h1 {
+    font-size: 5em;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  main::after {
+    content: 'Esse arquivo foi impresso em www.sociogigante.com';
+  }
+
+img#pc{display: none;}
+img#print{display: block;}
+img#tv{display: none;}
+img#phone{display: none;}
+img#tablet{display: none;}
+
+        
+        
+
+
+    
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) /* Media Tablet */ { 
+    
+    body {
+     background-image: url(../imagens/back-tablet.jpg);
+     
+     
+} 
+
+
+img#pc{display: none;}
+img#print{display: none;}
+img#tv{display: none;}
+img#phone{display: none;}
+img#tablet{display: block;}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px ) /* Media PC */ {
+
+
+    body {
+        background-image: url(../imagens/back-pc.jpg)
+    }
+
+img#pc{display: block;}
+img#print{display: none;}
+img#tv{display: none;}
+img#phone{display: none;}
+img#tablet{display: none;}
+}
+
+@media screen and (min-width: 1200px) /* Media TV */ {
+
+    body {
+        background-image: url(../imagens/back-tv.jpg)
+    }
+
+    main {
+        width: 700px;
+    }
+
+img#pc{display: none;}
+img#print{display: none;}
+img#tv{display: block;}
+img#phone{display: none;}
+img#tablet{display: none;}
+}
+
