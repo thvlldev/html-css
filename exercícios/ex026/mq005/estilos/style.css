@@ -19,19 +19,34 @@ header > h1 {
     text-align: center;
 }
 
+span#burguer {
+    display: block;
+    text-align: center;
+    background-color: rgb(49, 49, 49);
+    padding: 10px;
+    color: white;
+}
+
+span#burguer:hover {
+    background-color: lightslategray;
+    cursor: pointer;
+}
+
 menu {
     display: none; /* Usar o display none quando for colocar interatividade com JS no menu */
-    background-color: rgb(87, 87, 87);
+    background-color: rgb(70, 67, 67);
 }
 
 menu > ul > li {
     list-style: none;
+    border-top: 2px solid gray;
+    background-color: rgb(14, 12, 12);
+    
 }
 
 menu > ul > li > a {
     display: block;
     text-align: center;
-    border-top: 2px solid gray;
     text-decoration: none;
     padding: 10px;
     color: white;
